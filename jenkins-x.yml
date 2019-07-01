@@ -1,0 +1,8 @@
+env:
+- name: DEPLOY_NAMESPACE
+  value: sandbox-gitops
+pipelineConfig:
+  env:
+  - name: DEPLOY_NAMESPACE
+    value: sandbox-gitops
+  pipelines: {}
